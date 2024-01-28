@@ -46,3 +46,7 @@ button {
 #save-el{
     font-weight: bold;
 }
+
+#reset-btn{
+    background: skyblue;
+}
