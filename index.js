@@ -1,5 +1,5 @@
 
-let saveEL=document.getElementById("save-el")
+let saveEL = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 
@@ -13,4 +13,9 @@ function save(){
     saveEL.textContent += countStr
     countEl.textContent=0
     count=0
+}
+
+function reset(){
+    count = 0
+    countEl.textContent = count
 }
